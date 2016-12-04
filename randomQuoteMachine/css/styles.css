@@ -1,0 +1,54 @@
+.body{
+  height:100vh;
+}
+
+.title{
+  background-color: white;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 10px;
+  margin-top:80px;
+
+}
+
+.title h1{
+  padding:20px;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+}
+
+/*Author's name*/
+.quote{
+  font-size: 25px;
+}
+
+.quote-core{
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background-color: white;
+  height:300px;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+/*This overrides the overall text look*/
+.quote-core p{
+    display:inline;
+    font-size: 15px;
+}
+
+.button-pos{
+  margin-left:300px;
+  margin-right:300px;
+}
+
+.btn{
+  background-color: white;
+  padding: 15px;
+  font-size: 20px;
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+.btn:active{
+  background-color: grey;
+  color:white;
+}
