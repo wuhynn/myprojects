@@ -1,54 +1,31 @@
-.body{
-  height:100vh;
-}
-
 .title{
-  background-color: white;
-  margin-left: 300px;
-  margin-right: 300px;
-  border-radius: 10px;
-  margin-top:80px;
-
-}
-
-.title h1{
-  padding:20px;
-  font-family: 'Permanent Marker', cursive;
+  margin: 120px;
   font-size: 50px;
-}
-
-/*Author's name*/
-.quote{
-  font-size: 25px;
-}
-
-.quote-core{
-  margin-top: 40px;
-  margin-bottom: 50px;
-  background-color: white;
-  height:300px;
   font-family: 'Baloo Bhaina', cursive;
 }
 
-/*This overrides the overall text look*/
-.quote-core p{
-    display:inline;
-    font-size: 15px;
+.content-core{
+  margin: 40px auto;
+  color:"#111111";
+  font-family: 'Baloo Bhaina', cursive;
 }
 
-.button-pos{
-  margin-left:300px;
-  margin-right:300px;
+.content h3{
+  margin: 50px;
+}
+
+.buttons{
+  margin-top: 120px;
 }
 
 .btn{
-  background-color: white;
-  padding: 15px;
-  font-size: 20px;
+  padding: 20px;
+  width: 210px;
+  font-size: 25px;
   font-family: 'Baloo Bhaina', cursive;
 }
 
-.btn:active{
-  background-color: grey;
-  color:white;
+p{
+  display: inline;
+  white-space: nowrap;
 }
